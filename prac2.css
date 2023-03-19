@@ -165,8 +165,7 @@ div.div_outer_task7 {
 }
 
 div.div_inner_task7 {
-    width: 700px;
-    height: 200px;
+
     background-color: yellow;
     border-style: solid;
     border-color: red;
@@ -176,6 +175,8 @@ div.div_inner_task7 {
     margin-top: 10px;
     padding: 12px;
     text-align: right;
+    max-width: 700px;
+    max-height: 200px;
 
 
 }
@@ -192,12 +193,12 @@ div.div2_outer_task7 {
 }
 
 div.div2_inner_task7 {
-    height: 374px;
-    width: 374px;
     background-color: yellow;
-    border-color: 1px solid red;
+    border-color: solid red;
     margin: auto;
     padding: 12px;
+    max-width: 400px;
+    max-height: 400px;
 
 }
 
