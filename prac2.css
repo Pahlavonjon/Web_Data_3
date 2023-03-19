@@ -166,10 +166,10 @@ div.div_outer_task7 {
 
 div.div_inner_task7 {
     width: 700px;
+    height: 200px;
     background-color: yellow;
     border-style: solid;
     border-color: red;
-    height: 200px;
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 10px;
@@ -192,14 +192,12 @@ div.div2_outer_task7 {
 }
 
 div.div2_inner_task7 {
+    height: 374px;
+    width: 374px;
     background-color: yellow;
     border-color: 1px solid red;
     margin: auto;
     padding: 12px;
-    /* 400px = 24*/
-    height: 374px;
-    width: 374px;
-
 
 }
 
