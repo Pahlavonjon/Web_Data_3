@@ -1,0 +1,264 @@
+/*   task 2   */
+
+
+
+
+h1.h1_task2 {
+    font-family: Sans-Serif;
+}
+p.p_task2 {
+    font-family: Serif;
+}
+a.a_task2 {
+    color: darkgreen;
+}
+del.del_task2 {
+    color: grey;
+}
+h2.h2_task2 {
+    align-items: left;
+    font-family: Sans-Serif;
+}
+span.span_task2 {
+    color: darkblue;
+    background-color: pink;
+}
+pre.pre_task2 {
+    font-family: monospace;
+    font-size: 1em;
+}
+
+
+
+
+
+
+/*   task 3   */
+
+h3 {
+    color: rgba(0,0,255,0.5);
+}
+pre.transparent-text {
+    color: rgba(0,0,0,0.5);
+}
+
+
+
+
+
+
+/*   task 4   */
+
+
+body.background_task4 {
+    background-color: #DCF5F5;
+    background-repeat: repeat;
+    background-image: url("/cross.png");
+}
+
+
+
+
+
+/*   task 5   */
+
+body.background_task5 {
+    background-color: #DCF5F5;
+    background-repeat: repeat;
+    background-image: url("/cross.png");
+}
+
+div#content {
+    background-color: white;
+}
+
+span.blue {
+    color: blue;
+}
+
+span.fancy {
+    font-family: cursive;
+}
+
+span.span3_task5 {
+    color: blue;
+    font-family:  cursive;
+}
+
+
+
+/*   task 6   */
+
+
+body.background_task6 {
+    background-color: #DCF5F5;
+    background-repeat: repeat;
+    background-image: url("/cross.png");
+}
+
+div.div_task6 {
+    background-color: white;
+    border-style: solid;
+    border-color: darkgrey 1px;
+    border-radius: 8px;
+}
+
+span.red-border {
+    border-style: solid;
+    border-color: red;
+}
+
+span.red-outline {
+    outline-style: solid;
+    outline-color: red;
+}
+
+div.div2_task6 {
+    border-style: solid;
+    border-color: red;
+}
+
+div.div3_task6 {
+    border-style: solid;
+    border-color: blue;
+}
+
+div.div4_task6 {
+    border-style: solid;
+    border-color: red;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    border-bottom: none;
+}
+
+div.div5_task6 {
+    border-style: solid;
+    border-color: blue;
+    border-radius: 8px;
+}
+
+
+
+
+/*   task 7   */
+
+
+body.background_task7 {
+    background-color: #DCF5F5;
+    background-repeat: repeat;
+    background-image: url("/cross.png");
+}
+
+div.div_task7 {
+    background-color: white;
+}
+
+hr.hr_task7 {
+    background-color: #DCF5F5;
+}
+
+div.div_outer_task7 {
+    background-color: blue;
+    border-style: solid;
+    border-color: red;
+
+}
+
+div.div_inner_task7 {
+    background-color: yellow;
+    border-style: solid;
+    width: 700px;
+    height: 200px;
+    border-color: red;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 12px;
+
+
+}
+p.nested_p{
+    text-align: right;
+}
+
+div.div2_outer_task7 {
+    background-color: blue;
+    border-style: solid;
+    border-color: red;
+    margin-top: 20px;
+
+}
+
+div.div2_inner_task7 {
+    background-color: yellow;
+    border-color: 1px solid red;
+    margin: auto;
+    padding: 12px;
+    /* 400px = 24*/
+    height: 374px;
+    width: 374px;
+
+
+}
+
+
+
+
+
+
+/*   task 8   */
+
+body.background_task8 {
+    background-color: #DCF5F5;
+    background-repeat: repeat;
+    background-image: url("/cross.png");
+}
+
+div.div_task8 {
+    background-color: white;
+}
+
+h1.h1_task8 {
+    font-family: Raleway, sans-serif;
+}
+
+h2.h2_task8 {
+    font-family: Raleway, sans-serif;
+}
+
+h4.h4_task8 {
+    font-family: Raleway, sans-serif;
+    text-decoration-line: underline;
+    font-style: italic;
+    font-weight: normal;
+}
+
+hr.hr_task8 {
+    background-color: #DCF5F5;
+}
+blockquote.blockquote_task8 {
+    font-family: Raleway, sans-serif;
+    color: dimgrey;
+    word-spacing: 0.2em;
+    line-height: 1.5;
+}
+
+i.fa-facebook-f {
+    color: #BFCFD4;
+    text-align: center;
+    width: 100%;
+}
+
+i.fa-twitter {
+    color: #BFCFD4;
+    text-align: center;
+    width: 100%;
+}
+i.fa-share-nodes {
+    color: #BFCFD4;
+    text-align: center;
+    width: 100%;
+}
+
+

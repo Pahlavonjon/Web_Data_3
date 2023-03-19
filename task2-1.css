@@ -1,0 +1,25 @@
+h1 {
+    color: red;
+
+}
+p {
+    font-family: sans-serif;
+}
+a {
+    color: orange;
+}
+mark {
+    background-color: pink;
+    color: dimgrey;
+}
+h2 {
+    text-align: center;
+
+}
+pre {
+    font-family: monospace;
+    font-size: 0.8em;
+}
+s {
+    color: grey;
+}
