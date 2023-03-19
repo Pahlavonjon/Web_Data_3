@@ -286,6 +286,11 @@ i.fa-share-nodes {
 
 /*   task 9   */
 
+
+li.menu {
+    float: left;
+}
+
 ul.nav_ul_task9 {
     list-style-type: none;
     margin: 0;
@@ -293,8 +298,11 @@ ul.nav_ul_task9 {
     overflow: hidden;
     background-color: darkgrey;
 }
-li.menu {
-    float: left;
+
+
+
+li.menu a:hover {
+    color: darkgrey;
 }
 
 li.menu a {
@@ -304,13 +312,6 @@ li.menu a {
     padding: 14px 16px;
     text-decoration: none;  
 }
-li.menu a:hover:not(.active) {
-    background-color: lightgrey;
-}
-
-li.menu a:hover {
-    color: darkgrey;
-}
 
 li.dotted {
     list-style-type: square;
@@ -318,6 +319,11 @@ li.dotted {
 
 ol li.lower_roman {
     list-style-type: lower-roman;
+}
+
+
+li.menu a:hover:not(.active) {
+    background-color: lightgrey;
 }
 
 
