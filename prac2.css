@@ -221,18 +221,18 @@ div.div_task8 {
 }
 
 h1.h1_task8 {
-    font-family: Raleway, sans-serif;
+    font-family: "Raleway", sans-serif;
 }
 
 h2.h2_task8 {
-    font-family: Raleway, sans-serif;
+    font-family: "Raleway", sans-serif;
 }
 p.noto {
-    font-family: Noto, serif;
+    font-family: "Noto Serif", serif;
 }
 
 h4.h4_task8 {
-    font-family: Raleway, sans-serif;
+    font-family: "Raleway", sans-serif;
     text-decoration-line: underline;
     font-style: italic;
     font-weight: normal;
@@ -242,7 +242,7 @@ hr.hr_task8 {
     background-color: #DCF5F5;
 }
 blockquote.blockquote_task8 {
-    font-family: Raleway, sans-serif;
+    font-family: "Raleway", sans-serif;
     color: dimgrey;
     word-spacing: 0.2em;
     line-height: 1.5;
