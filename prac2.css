@@ -225,10 +225,10 @@ h1.h1_task8 {
 }
 
 h2.h2_task8 {
-    font-family: "Raleway", sans-serif;
+    font-family: "Raleway", "Noto-serif";
 }
 p.noto {
-    font-family: "Noto Serif", serif;
+    font-family: "Noto-serif", serif;
 }
 
 h4.h4_task8 {
@@ -241,7 +241,8 @@ h4.h4_task8 {
 hr.hr_task8 {
     background-color: #DCF5F5;
 }
-blockquote.blockquote_task8 {
+
+blockquote {
     font-family: "Raleway", sans-serif;
     color: dimgrey;
     word-spacing: 0.2em;
@@ -250,28 +251,29 @@ blockquote.blockquote_task8 {
 }
 
 div.div_last_task8 {
-    align-items: center;
-    display: inline-block;
+    text-align: center;
 }
 
 i.fa-facebook-f {
     color: #BFCFD4;
-    float: left;
 }
 
 i.fa-twitter {
     color: #BFCFD4;
-    float: left;
 
 }
 i.fa-share-nodes {
     color: #BFCFD4;
-    float: left;
 }
 /* color: #BFCFD4;
     text-align: center;
     width: 100%;
-    display: inline-block; */
+    display: inline-block;
+    
+    align-items: center;
+    display: inline-block;
+
+    */
 
 
 
