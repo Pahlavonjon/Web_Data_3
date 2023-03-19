@@ -165,7 +165,8 @@ div.div_outer_task7 {
 }
 
 div.div_inner_task7 {
-
+    width: 636px;
+    height: 156px;
     background-color: yellow;
     border-style: solid;
     border-color: red;
@@ -175,8 +176,7 @@ div.div_inner_task7 {
     margin-top: 10px;
     padding: 12px;
     text-align: right;
-    width: 636px;
-    height: 156px;
+
 
 
 }
@@ -193,12 +193,13 @@ div.div2_outer_task7 {
 }
 
 div.div2_inner_task7 {
+    width: 376px;
+    height: 376px;
     background-color: yellow;
     border-color: solid red;
     margin: auto;
     padding: 12px;
-    width: 376px;
-    height: 376px;
+
 
 }
 
@@ -226,6 +227,9 @@ h1.h1_task8 {
 h2.h2_task8 {
     font-family: Raleway, sans-serif;
 }
+p.noto {
+    font-family: Noto, serif;
+}
 
 h4.h4_task8 {
     font-family: Raleway, sans-serif;
@@ -242,6 +246,7 @@ blockquote.blockquote_task8 {
     color: dimgrey;
     word-spacing: 0.2em;
     line-height: 1.5;
+    text-align: justify;
 }
 
 i.fa-facebook-f {
