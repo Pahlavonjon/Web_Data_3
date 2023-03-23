@@ -12,12 +12,29 @@ function mcount() {
 
 function get_user_input(){
     var the_content = document.getElementsByClassName("post-content");
-    the_content.innerHTML = document.getElementsByTagName("textarea").innerText;
-    document.getElementsByClassName("post-time").innerHTML = Date();
+    the_content.textContents = (document.getElementsByTagName("textarea")).textContents;
 }
+
+function get_the_time () {
+    (document.getElementsByClassName("post-time")).innerHTML = Date();
+}
+
+
 
 var post = document.getElementsByClassName("post_button");
 post.addEventListener("click",get_user_input);
 
+var time = document.getElementsByClassName("post_button");
+time.addEventListener("click",get_the_time);
 
-document.getElementsByTagName("button").addEventListener("click")
+
+
+
+
+document.getElementById("the_button").addEventListener("click",change_the_time);
+
+function change_the_time() {
+    document.getElementById("current_time").innerHTML = Date();
+
+}
+
