@@ -1,40 +1,37 @@
 // Task  3.1
 
 var total_visits = 0;
-var the_counter_object = document.getElementById("mcount");
-the_counter_object.addEventListener("mouseover",mcount);
 function mcount() {
-    document.getElementById("mcount").innerHTML = total_visits++;
+    document.getElementById("mcount").innerText = total_visits++;
 }
 
 
 // Task  3.2
 
 function get_user_input(){
-    var the_content = document.getElementsByClassName("post-content");
-    the_content.textContents = (document.getElementsByTagName("textarea")).textContents;
+    var result = document.querySelector("#post");
+    result = document.querySelector(".post-content");
+    result.innerText = document.getElementById("text_area").innerText;
+
+//    // var result = document.querySelectorAll("#post post-content");
+//     console.log(result);
+//     result.innerHTML = document.getElementsByClassName("textarea").innerHTML;
+
+//     console.log();
+
 }
+
+function gleichzeitig_input() {
+    var result = document.querySelector("#post");
+    result = document.querySelector(".post-content");
+    var the_letter = result.innerText;
+    result.innerText = the_letter;
+  }
 
 function get_the_time () {
-    (document.getElementsByClassName("post-time")).innerHTML = Date();
+    document.getElementsByClassName("post-time")[0].innerText = Date();
 }
 
 
 
-var post = document.getElementsByClassName("post_button");
-post.addEventListener("click",get_user_input);
-
-var time = document.getElementsByClassName("post_button");
-time.addEventListener("click",get_the_time);
-
-
-
-
-
-document.getElementById("the_button").addEventListener("click",change_the_time);
-
-function change_the_time() {
-    document.getElementById("current_time").innerHTML = Date();
-
-}
 

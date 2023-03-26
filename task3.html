@@ -6,7 +6,7 @@
         <meta charset="UTF-8">
         <title>Practical Excercise 3 - Part 3</title>
         <link rel="stylesheet" href="task3.css" type="text/css">
-        
+        <script src="task3.js"></script>
     </head>
 
     <body>
@@ -14,19 +14,19 @@
         <div id="main" class="container">
             <button type="button" class="right">MENU</button>
             <h1>Part 3 - Javascript Playground</h1>
-            <div id="mcount"></div>
+            <div id="mcount" onmouseover="mcount()"></div>
             <div id="posts">
-                <p class="post-time"></p>
-                <p class="post-content"></p>
+                <p class="post-time" style="font-weight: bold; color: grey;">The Date</p>
+                <p class="post-content">The Content</p>
             </div>
             <hr />
-            <textarea rows="4" cols="60" >Type your text here...</textarea>
+            <textarea oninput="gleichzeitig_input()" id="text_area" rows="4" cols="60" onkeydown="">Type your text</textarea>
             <br />
             <div class="controls left">
                 <input type="number" name="quantity" value="1" /><br />
                 <input type="radio" name="color" value="blue" /> Blue<br />
                 <input type="radio" name="color" value="red" /> Red<br />
-                <button type="button" class="post_button">Post</button>
+                <button type="button" onclick="get_the_time(); get_user_input()">Post</button>
             </div>
             <div class="controls left"> 
                 <input type="range" name="visible" min="1" max="10" value="10"/><br />
@@ -44,8 +44,5 @@
             <p>&nbsp;</p>
             <span>Background Color:</span><input type="text">
         </div>
-        <script src="task3.js"></script>
-
     </body>
-    
 </html>
