@@ -1,8 +1,8 @@
 // Task  3.1
 
-var total_visits = 0;
+var total_visits = 1;
 function mcount() {
-    document.getElementById("mcount").innerText = total_visits++;
+    document.getElementById("mcount").innerHTML = total_visits++;
 }
 
 
