@@ -32,6 +32,18 @@ function get_the_time () {
     document.getElementsByClassName("post-time")[0].innerText = Date();
 }
 
+//  Task 3.3 
+
+document.getElementById("menu").style.display = "none";
+
+function remove_front() {
+    var rest_of_the_page = document.getElementById("main");
+    rest_of_the_page.style.display = "none";
+    var the_back_menu = document.getElementById("menu");
+    the_back_menu.style.visibility = "visible";
+}
+
+//  3.4
 
 
 
