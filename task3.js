@@ -46,6 +46,7 @@ function post_multiple(){
     let the_quantity_value = document.getElementById("quantitys");
     let farben = document.getElementsByClassName("farben");
     let typ = document.getElementsByClassName("typ");
+    let textareaa = document.getElementsByTagName("textarea");
     for (var k = 1; k <= the_quantity_value.value; k++ ){
         const posts_div = document.createElement('div');
         const time_p = document.createElement('p');
@@ -59,8 +60,8 @@ function post_multiple(){
         time_p.classList.add("post-time");
         text_p.classList.add("post-content");
         posts_div.classList.add("new_post_div");
-        time_p.innerText = Date();
-        text_p.innerText = document.getElementsByTagName("textarea")[0].value;
+        time_p.innerText = new Date();
+        text_p.innerText = textareaa[0].value;
         if (farben[0].checked == true){
             text_p.style.color = "blue";
         }
@@ -79,8 +80,4 @@ function post_multiple(){
         the_post_destination.appendChild(posts_div);
     }
 }
-
-
-
-
 
