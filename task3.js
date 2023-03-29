@@ -44,6 +44,8 @@ function background_color_change(){
 
 function post_multiple(){
     let the_quantity_value = document.getElementById("quantitys");
+    let farben = document.getElementsByClassName("farben");
+    let typ = document.getElementsByClassName("typ");
     for (var k = 1; k <= the_quantity_value.value; k++ ){
         const posts_div = document.createElement('div');
         const time_p = document.createElement('p');
@@ -51,8 +53,7 @@ function post_multiple(){
         document.body.append(posts_div);
         document.body.append(time_p);
         document.body.append(text_p);
-        let farben = document.getElementsByClassName("farben");
-        let typ = document.getElementsByClassName("typ");
+        
         time_p.classList.add("post-time");
         text_p.classList.add("post-content");
         posts_div.classList.add("new_post_div");
