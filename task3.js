@@ -13,7 +13,7 @@ function get_the_time () {
 }
 function post_multiple(){
     var the_quantity_value = document.getElementById("quantity");
-    for (var k = 0; k < the_quantity_value.value; k++ ){
+    for (var k = 1; k <= the_quantity_value.value; k++ ){
         var posts_div = document.createElement('div');
         var time_p = document.createElement('p');
         var text_p = document.createElement('p');
@@ -30,15 +30,16 @@ function post_multiple(){
         if (farben[0].checked == true){
             text_p.style.color = "blue";
         }
-        if (typ[1].checked == true){
-            text_p.style.fontWeight = "italic";
-        }
         if (farben[1].checked == true){
             text_p.style.color = "red";
         }
         if (typ[0].checked == true){
             text_p.style.fontWeight = "bold";
         }
+        if (typ[1].checked == true){
+            text_p.style.fontWeight = "italic";
+        }
+        
         posts_div.append(time_p);
         posts_div.append(text_p);
         var the_post_destination = document.getElementById("posts");
