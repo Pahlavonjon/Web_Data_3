@@ -50,9 +50,11 @@ function post_multiple(){
         const posts_div = document.createElement('div');
         const time_p = document.createElement('p');
         const text_p = document.createElement('p');
-        document.body.append(posts_div);
-        document.body.append(time_p);
-        document.body.append(text_p);
+
+
+        // document.body.append(posts_div);
+        // document.body.append(time_p);
+        // document.body.append(text_p);
         
         time_p.classList.add("post-time");
         text_p.classList.add("post-content");
@@ -79,46 +81,6 @@ function post_multiple(){
 }
 
 
-function change() {
-    let blog_post = document.getElementById("posts");
-    let content = document.getElementsByTagName("textarea");
-    let color = document.getElementsByName("color");
-    let text_style = document.getElementsByName("style");
-    let num_of_times = document.getElementsByName("quantity");
 
-    for (let i = 1; i <= num_of_times[0].value; i++) {
-        const para1 = document.createElement("p");
-        const para2 = document.createElement("p");
-        const div = document.createElement("div");
-
-        para1.classList.add("post-time");
-        para2.classList.add("post-content");
-        div.classList.add("blog_div");
-
-        para1.innerText = new Date();
-        para2.innerText = content[0].value;
-
-        if (color[0].checked == true) {
-            para2.style.color = 'blue';
-        }
-
-        if (color[1].checked == true) {
-            para2.style.color = 'red';
-        }
-
-        if (text_style[0].checked == true) {
-            para2.style.fontWeight = 'bold';
-        }
-
-        if (text_style[1].checked == true) {
-            para2.style.fontStyle = 'italic';
-        }
-        
-        div.append(para1);
-        div.append(para2);
-
-        blog_post.appendChild(div);
-    }
-}
 
 
