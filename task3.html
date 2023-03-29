@@ -6,7 +6,7 @@
         <meta charset="UTF-8">
         <title>Practical Excercise 3 - Part 3</title>
         <link rel="stylesheet" href="task3.css" type="text/css">
-        <script src="task3.js"></script>
+
     </head>
 
     <body>
@@ -16,11 +16,11 @@
             <h1>Part 3 - Javascript Playground</h1>
             <div id="mcount" onmouseover="mcount()"></div>
             <div id="posts">
-                <p class="post-time" style="font-weight: bold; color: grey;">The Date</p>
-                <p class="post-content">The Content</p>
+                <p class="post-time" style="font-weight: bold; color: grey;"></p>
+                <p class="post-content"></p>
             </div>
             <hr />
-            <textarea oninput="gleichzeitig_input()" id="text_area" rows="4" cols="60" onkeydown="">Type your text</textarea>
+            <textarea id="text_area" rows="4" cols="60" ></textarea>
             <br />
             <div class="controls left">
                 <input type="number" name="quantity" value="1" /><br />
@@ -40,9 +40,12 @@
         </div>
         
         <div id="menu" class="container">
-            <button type="button" class="right">BACK</button>
+            <button type="button" class="right" onclick="show_front()">BACK</button>
             <p>&nbsp;</p>
             <span>Background Color:</span><input type="text">
         </div>
+
+        <script src="task3.js"></script>
+
     </body>
 </html>
