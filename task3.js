@@ -22,9 +22,9 @@ function post_multiple(){
         document.body.append(text_p);
         var farben = document.getElementsByClassName("farben");
         var typ = document.getElementsByClassName("typ");
-        posts_div.classList = 'new_post_div';
-        time_p.classList = 'post-time';
-        text_p.classList = 'post-content';
+        posts_div.classList.add("new_post_div");
+        time_p.classList.add("post-time");
+        text_p.classList.add("post-content");
         time_p.innerText = Date();
         text_p.innerText = document.getElementsByTagName("textarea")[0].value;
         if (farben[0].checked == true){
@@ -39,7 +39,6 @@ function post_multiple(){
         if (typ[1].checked == true){
             text_p.style.fontWeight = "italic";
         }
-        
         posts_div.append(time_p);
         posts_div.append(text_p);
         var the_post_destination = document.getElementById("posts");
@@ -75,3 +74,4 @@ function background_color_change(){
     var the_background = document.getElementById("background_input").value;
     document.body.style.backgroundColor = the_background;
 }
+
