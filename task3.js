@@ -80,4 +80,3 @@ function post_multiple(){
         the_post_destination.appendChild(posts_div);
     }
 }
-
