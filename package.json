@@ -1,23 +1,14 @@
 {
-  "name": "web__data_2",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "web-data-2",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/a1827303/Web_Data_3.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/a1827303/Web_Data_3/issues"
-  },
-  "homepage": "https://github.com/a1827303/Web_Data_3#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "^4.18.2",
+    "morgan": "~1.9.1"
   }
 }

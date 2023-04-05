@@ -1,23 +1,20 @@
 var express = require('express');
-const app = express();
-const path = require('path')
-var router = express.Router();
+var path = require('path');
+var cookieParser = require('cookie-parser');
+var logger = require('morgan');
 
+var indexRouter = require('./routes/index');
+var usersRouter = require('./routes/users');
 
-router.get('/',function(req,res){
-    sendFile('index.html');
-});
+var app = express();
 
-// console.log('server sending html file');
+app.use(logger('dev'));
+app.use(express.json());
+app.use(express.urlencoded({ extended: false }));
+app.use(cookieParser());
+app.use(express.static(path.join(__dirname, 'public')));
 
+app.use('/', indexRouter);
+app.use('/users', usersRouter);
 
-
-// var http = require('http');
-
-// http.createServer(function(req,res){
-//     res.writeHead(200,{'Content-Type':'text/plain'});
-//     res.end('hello world');
-// }).listen(3000);
-
-// console.log('server running');
-
+module.exports = app;
