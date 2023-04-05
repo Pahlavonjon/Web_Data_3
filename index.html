@@ -7,19 +7,17 @@
 <body>
     <h1>My Prac 4 Express Server</h1>
     <p id="last-viewed">Welcome to Express</p>
-    <script src="test.js">
-    function create_server(){
-    var the_req = new XMLHttpRequest();
-    the_req.onreadystatechange = function() {
+    <script>
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
     var lastViewed = new Date(this.responseText);
     var paragraph = document.getElementById("last-viewed");
-    paragraph.textContent = "Last viewed " + lastViewed.toLocaleString();
+    paragraph.textContent = "This page was last viewed " + lastViewed.toLocaleString();
     }
     };
-    the_req.open("GET", "/last.txt", true);
-    the_req.send();
-    }
+    xhttp.open("GET", "/last.txt", true);
+    xhttp.send();
     </script>
 </body>
 </html>
