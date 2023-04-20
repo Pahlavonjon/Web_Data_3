@@ -11,4 +11,6 @@ res.render('index', { title: 'Express' });
 
 // timestamp
 var timestamp = '';
-router.get('/last.txt', function(req, res, next) {
+router.get('/last.txt', function(req, res, next){
+    
+})
