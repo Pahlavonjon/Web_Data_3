@@ -50,24 +50,27 @@ VALUES ("PHIL 2039","Philosophy of Mind", "Arts");
 
 
 INSERT into Enrolments (student_id,subject_code,mark)
-VALUES ("a111111", "COMP SCI 1102", 62);
+VALUES ("a1111111", "COMP SCI 1102", 62);
 INSERT into Enrolments (student_id,subject_code,mark)
-VALUES ("a111111", "COMP SCI 2000", 80);
+VALUES ("a1111111", "COMP SCI 2000", 80);
 
 INSERT into Enrolments (student_id,subject_code,mark)
-VALUES ("a111112", "COMP SCI 1102", 55);
+VALUES ("a1111112", "COMP SCI 1102", 55);
 
 INSERT into Enrolments (student_id,subject_code,mark)
-VALUES ("a111112", "COMP SCI 2207", 80);
+VALUES ("a1111112", "COMP SCI 2207", 80);
 
 INSERT into Enrolments (student_id,subject_code,mark)
-VALUES ("a111113", "PHIL 2039", 65);
+VALUES ("a1111113", "PHIL 2039", 65);
 
 INSERT into Enrolments (student_id,subject_code,mark)
-VALUES ("a111113", "COMP SCI 1102", 46);
+VALUES ("a1111113", "COMP SCI 1102", 46);
 
 INSERT into Enrolments (student_id,subject_code,mark)
-VALUES ("a111114", "COMP SCI 2207", 67);
+VALUES ("a1111114", "COMP SCI 2207", 67);
 
 INSERT into Enrolments (student_id,subject_code,mark)
-VALUES ("a111114", "COMP SCI 2000", 49);
+VALUES ("a1111114", "COMP SCI 2000", 49);
+
+
+alksdjn;liauhenrvpi;uhaenbrv;kjnaer;vkjnaerl;kvjnbaek;jhrnv
