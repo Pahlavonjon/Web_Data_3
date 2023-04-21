@@ -1,4 +1,4 @@
--- Active: 1682041160807@@127.0.0.1@3306@enrolment
+SET SQL_SAFE_UPDATES = 0;
 DELETE FROM enrolments
 WHERE student_id = "a1111112";
 
