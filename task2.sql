@@ -73,4 +73,3 @@ INSERT into Enrolments (student_id,subject_code,mark)
 VALUES ("a1111114", "COMP SCI 2000", 49);
 
 
-alksdjn;liauhenrvpi;uhaenbrv;kjnaer;vkjnaerl;kvjnbaek;jhrnv
