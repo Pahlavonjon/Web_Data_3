@@ -1,6 +1,12 @@
 SET SQL_SAFE_UPDATES = 0;
-DELETE FROM enrolments
+DELETE FROM Enrolments
 WHERE student_id = "a1111112";
 
-DELETE FROM students
+
+
+
+
+
+
+DELETE Fnts
 WHERE student_id = "a1111112";
