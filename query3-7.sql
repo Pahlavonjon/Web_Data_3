@@ -1,0 +1,3 @@
+
+aslkdjfhaieurhgf
+SELECT * FROM teachers;

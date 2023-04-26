@@ -21,6 +21,16 @@ CREATE Table Enrolments (
     mark INT
 );
 
+CREATE TABLE Teachers (
+  staff_id varchar(8),
+  title varchar(31),
+  given_name varchar(63),
+  family_name varchar(63),
+  faculty varchar(63)
+); 
+
+INSERT INTO Teachers VALUES ('a2222221','Doctor',' Quintella','Hill','ECMS'),('a2222222','Associate Lecturer',' Nieves','Cantu','ECMS'),('a2222223','Professor',' Yating','Yuen','ECMS'),('a2222224','Doctor',' Stone','Vance','Arts'),('a2222225','Associate Professor',' Kay','Crewe','Business'),('a2222226','Professor',' Christa','Barret','Science');
+
 INSERT into Students (student_id, given_name, family_name, program)
 VALUES ("a1111111", "Fang","Li","BE(Hons)(Soft)");
 
