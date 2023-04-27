@@ -1,2 +1,1 @@
-SELECT * FROM teachers;
-asdfasdf
+SELECT database FROM Teachers in enrolment;
